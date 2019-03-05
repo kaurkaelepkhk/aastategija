@@ -1,0 +1,26 @@
+/**
+* Custom Css for backend 
+*
+* @package Edu_Care
+*/
+#edu-care-layouts-container li {
+    float: left;
+    display: inline;
+    text-align: left;
+    width: 45%;
+    margin-left: 12px;
+}
+              
+#edu-care-layouts-container li img.edu-care-sidebar-img {         
+   cursor: pointer;   
+   border: 3px solid #E4E4E4; 
+   border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;              
+}
+
+#edu-care-layouts-container li img.edu-care-sidebar-img-selected {
+    border: 3px solid #BCBCBC;                    
+}
+                
+     
